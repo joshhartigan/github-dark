@@ -1,0 +1,171 @@
+/* page styles */
+
+body {
+	font-weight: lighter !important;
+	background-color: #3F4042;
+}
+
+.container {
+	width: 88%;
+}
+
+
+/* header styles */
+
+.header {
+	background-color: #2C2D2F;
+	border-bottom: 1px solid #1E1F21;
+}
+
+.header-logo-invertocat {
+	color: #A2A7AB;
+}
+
+.header-nav-link {
+	color: #A2A7AB;
+	font-weight: normal;
+}
+
+.js-site-search-form {
+	border: none !important;
+	outline: none !important;
+}
+
+.js-site-search-form input {
+	color: #FAFDFE;
+	background: none;
+	border: none;
+	border-radius: 0;
+	outline: none;
+}
+
+.js-site-search-form input:hover {
+	border-bottom: 1px solid #FAFDFE;
+}
+
+
+/* main content styles */
+
+#site-container {
+	background: #3F4042;
+	border-top: 1px solid #545557;
+}
+
+.pagehead {
+	display: none;
+}
+
+#dashboard:before {
+	margin-left: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #484D4E;
+	font-size: 2em;
+	color: #FAFDFE;
+	text-align: center;
+	content: 'News Feed';
+}
+
+#dashboard {
+	margin-top: 30px;
+}
+
+.news .alert {
+	border: none;
+}
+
+.news .alert .title a {
+	color: #FAFDFE;
+}
+
+.news .alert .time {
+	color: #666;
+}
+
+.news .alert .details img {
+	-webkit-filter: grayscale(100%);
+	   -moz-filter: grayscale(100%);
+            filter: grayscale(100%);
+}
+
+.news .alert .pull-info {
+	color: #BBB;
+	background: none;
+}
+
+.protip {
+	display: none;
+}
+
+.dashboard-sidebar {
+	display: none;
+}
+
+.ajax_paginate a {
+	display: inline-block;
+	color: #BBB;
+	background: none;
+}
+
+.site-footer {
+	border-color: #666;
+}
+
+.site-footer .octicon-mark-github {
+	display: none;
+}
+
+.site-footer-links li a {
+	color: #BBB;
+}
+
+
+/* profile page styles */
+
+.profilecols {
+	color: #FAFDFE;
+}
+
+.profilecols h1,
+.profilecols h2,
+.profilecols h3,
+.profilecols h4 {
+	font-weight: normal;
+}
+
+.vcard-details,
+.vcard-stats {
+	border-color: #666;
+}
+
+.vcard-detail,
+.vcard .clearfix h3,
+.vcard-username {
+	color: #B5B7B5;
+}
+
+.vcard-detail a,
+.vcard-stat-count {
+	font-weight: normal;
+	color: #FAFDFE;
+}
+
+.boxed-group h3 {
+	background: #303132;
+	border: none;
+}
+
+.boxed-group-inner {
+	background: #393A3C;
+	border: none;
+}
+
+.boxed-group-inner li a {
+	border: none;
+}
+
+.boxed-group-inner li a .repo-and-owner,
+.boxed-group-inner li a .repo-and-owner .repo {
+	font-weight: normal;
+	color: #FAFDFE;
+}
